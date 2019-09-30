@@ -1,5 +1,9 @@
 <?php
 /** @var modX $modx */
-switch ($modx->event->name) {
-
+$eventName = $modx->event->name;
+switch ($eventName) {
+    case 'msOnManagerCustomCssJs':
+        if ($scriptProperties['page'] != 'settings') return;
+        $modx->controller->addLastJavascript(MODX_ASSETS_URL . 'components/selectfilters/js/ms2/init.js');
+        break;
 }
