@@ -11,9 +11,8 @@ $pdo->setConfig([
 ]);
 $outArr = [];
 $options = $pdo->run();
-
 foreach ($options as $option) {
-    $outArr[] = 'msoption|' . $option;
+    $outArr[] = 'msoption|' . $option['key'];
 }
 $outArr = array_merge($outArr, $default);
 
