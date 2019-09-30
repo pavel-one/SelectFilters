@@ -1,10 +1,10 @@
 <?php
 return [
     'fields' => [
-        'cdek_id' => NULL,
+        'select_filter' => NULL,
     ],
     'fieldMeta' => [
-        'cdek_id' => [
+        'select_filter' => [
             'dbtype' => 'tinyint',
             'precision' => 1,
             'phptype' => 'boolean',
