@@ -11,7 +11,7 @@ if ($transport->xpdo) {
 
             foreach ($fields as $item) {
                 $table = $modx->getTableName('msOption');
-                $sql = "ALTER TABLE $table  ADD $item int(1) NULL;";
+                $sql = "ALTER TABLE $table  ADD $item tinyint(1) NULL;";
                 $modx->exec($sql);
                 $modx->log(3, "Добавлено поле <b>$item</b> в $table");
             }
