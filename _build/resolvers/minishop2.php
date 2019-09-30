@@ -15,6 +15,12 @@ if ($transport->xpdo) {
                 $modx->exec($sql);
                 $modx->log(3, "Добавлено поле <b>$item</b> в $table");
             }
+
+            /** @var miniShop2 $miniShop2 */
+            if ($miniShop2 = $modx->getService('miniShop2')) {
+                $miniShop2->addPlugin('SelectFilters', '{core_path}components/selectfilters/ms2/index.php');
+                $modx->log(3, 'Плагин дополнительного поля <b>SelectFilters</b> установлен');
+            }
             break;
     }
 }
