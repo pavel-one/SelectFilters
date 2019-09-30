@@ -4,6 +4,8 @@ Ext.ComponentMgr.onAvailable('minishop2-window-option-update', function () {
         xtype: 'checkbox',
         id: 'select_filter_id',
         name: 'select_filter',
+        inputValue: '1',
+        uncheckedValue: '0',
         boxLabel: 'Показывать в фильтрах',
         anchor: '100%'
     });
