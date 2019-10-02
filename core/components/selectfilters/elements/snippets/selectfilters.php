@@ -7,7 +7,11 @@ $pdo->setConfig([
     'class' => 'msOption',
     'return' => 'data',
     'sortby' => 'id',
-    'select' => 'key'
+    'select' => 'key',
+    'limit' => 0,
+    'where' => [
+        'select_filter' => 1,
+    ]
 ]);
 $outArr = [];
 $options = $pdo->run();
