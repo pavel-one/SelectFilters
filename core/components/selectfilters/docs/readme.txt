@@ -1,7 +1,7 @@
 --------------------
 SelectFilters
 --------------------
-Author: John Doe <john@doe.com>
+Author: Pavel Zarubin <pavel@orendat.ru>
 --------------------
 
-A basic Extra for MODx Revolution.
+Add checkbox for select view filters for mSearch2
