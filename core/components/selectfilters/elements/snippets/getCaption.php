@@ -15,5 +15,5 @@ $obj = $modx->getObject('msOption', $query);
 if ($obj) {
     return $obj->get('caption');
 } else {
-//    return $modx->lexicon("mse2_filter_{$table}_{$input}");
+    return $modx->lexicon("mse2_filter_ms_{$input}");
 }
