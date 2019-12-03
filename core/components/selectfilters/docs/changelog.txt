@@ -1,1 +1,5 @@
 Changelog for SelectFilters.
+
+1.1.2-pl
+==============
+- Fix lexicon

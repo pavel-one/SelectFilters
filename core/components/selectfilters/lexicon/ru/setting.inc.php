@@ -2,5 +2,5 @@
 
 $_lang['area_selectfilters_main'] = 'Основные';
 
-$_lang['setting_selectfilters_some_setting'] = 'Какая-то настройка';
-$_lang['setting_selectfilters_some_setting_desc'] = 'Это описание для какой-то настройки';
+$_lang['setting_selectfilters_some_setting'] = 'Заглушка для будущих настроек';
+$_lang['setting_selectfilters_some_setting_desc'] = 'Заглушка описания для будущих настроек';

@@ -11,7 +11,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'SelectFilters',
     'name_lower' => 'selectfilters',
-    'version' => '1.1.1',
+    'version' => '1.1.2',
     'release' => 'pl',
     // Install package to site right after build
     'install' => true,
