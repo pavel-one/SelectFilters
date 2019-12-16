@@ -3,3 +3,7 @@ Changelog for SelectFilters.
 1.1.2-pl
 ==============
 - Fix lexicon
+
+1.1.3-pl
+==============
+- Fix checkbox
