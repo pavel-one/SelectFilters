@@ -1,5 +1,5 @@
 ## SelectFilters
-https://modx.pro/components/19347
+https://modx.pro/components/19347  
 Компонент создан для того, чтобы пользователь мог выбрать самостоятельно какие фильтры для mFilter2 выводить. Он добавляет чекбокс в окно опций
 
 ![Скриншот](http://pavel.one/git_SelectFilters.png)
